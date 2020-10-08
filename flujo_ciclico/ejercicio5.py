@@ -1,5 +1,5 @@
-triangulo = int(input("Indique un numero: "))
-for i in range (triangulo + 1):
-    for j in range (i):
-        print("*", end="")
+tria = int(input("Ingrse un numero por favor"))
+for i in range (tria +1):
+    for k in range (i):
+        print("*",end="" )
     print()
