@@ -1,7 +1,8 @@
 def tablaM(num):
+    print("tabla de multiplicar de", num)
     for i in range(1,11):
         print(num, "x" , "=", i * num)
-    print("tabla de multiplicar de", num)
+
 
 
 
