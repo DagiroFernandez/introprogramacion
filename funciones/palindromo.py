@@ -16,6 +16,6 @@ cadena = input("Ingrese un texto: ")
 cadena_inversa = inversa(cadena)
 
 if (es_palindromo(cadena, cadena_inversa)):
-    print("La cadena ingresada es un palindromo")
+    print("es palindromo")
 else:
-    print("La cadena ingresada no es un palindromo")
+    print("no es un palindromo")
