@@ -68,3 +68,4 @@ while(intentos>0):
         intentos=-1
 if(intentos==0):
     print("Se terminaron tus intentos! Perdiste!")
+
