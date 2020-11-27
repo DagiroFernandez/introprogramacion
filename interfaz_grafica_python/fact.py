@@ -1,7 +1,11 @@
 FACT=[]
-num=int(input("ingrese un numero: "))
-for i in range(1,num):
-    num= num*i
-FACT.append(num)
-print(FACT)
+def fact (numero):
+    for i in range(1, numero):
+        numero = numero * i
+    FACT.append(numero)
 
+
+
+for n in range(1,21):
+    fact(n)
+print(f"FACT=",FACT)
